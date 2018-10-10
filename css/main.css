@@ -1,20 +1,55 @@
 body{
     margin: 0;
     padding: 0;
-
+    color: #222;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
 }
 
 .header{
-    background-color: blue;
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     
 }
+ #sign-in{
+    background-color: dodgerblue;
+    padding: 0 12px;
+    border: 1px solid dodgerblue;
+    border-radius: 2px;
+    
 
+}
+
+#sign-in a{
+    color: white;
+    font-weight: bold;
+    cursor: default;
+}
+
+
+.nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.nav ul li{
+    display: inline;
+    float: right;
+}
+
+.nav ul li a{
+    display: block;
+    padding: 6px 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #222;
+
+}
 
 .center{
     padding-top: 200px;
@@ -29,18 +64,25 @@ body{
     margin-bottom: 30px;
 }
 
+
 .searchForm{
     position: relative;
 }
+
 
 .searchForm img{
 position: absolute;
 top: 3;
 right: 0;
 }
+
 .searchForm input[type=text]{
     width: 100%;
     height: 45px;
+    padding-top: 3px;
+    padding-bottom: 2px;
+    
+    box-sizing: border-box;
 }
 
 .buttons{
@@ -59,13 +101,33 @@ footer{
     width: 100%;
     bottom: 0;
     left: 0;
-    background-color: gray;
+    background-color: lightgrey;
 }
 
 footer .left-footer{
     float: left;
+    margin-left: 40px;
 }
 
 footer .right-footer{
     float: right;
+    margin-right: 40px;
 }
+
+footer .left-footer a{
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 20px;
+}
+footer .right-footer a{
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+footer .left-footer a, .right-footer a {
+    text-align: center;
+    color: #222;
+}
+
+
