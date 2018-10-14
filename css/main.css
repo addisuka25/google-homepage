@@ -15,9 +15,10 @@ body{
 }
  #sign-in{
     background-color: dodgerblue;
-    padding: 0 12px;
+    padding: 2 9px;
     border: 1px solid dodgerblue;
     border-radius: 2px;
+    margin-left: 10px;
     
 
 }
@@ -101,7 +102,8 @@ footer{
     width: 100%;
     bottom: 0;
     left: 0;
-    background-color: lightgrey;
+    background-color: #e4e4e4;
+    border-top: 1px solid lightgrey;
 }
 
 footer .left-footer{
@@ -130,4 +132,12 @@ footer .left-footer a, .right-footer a {
     color: #222;
 }
 
+.inner{
+    border-bottom: 1px solid lightgrey;;
+    border-radius: 2px;
+}
+
+footer .inner p{
+    margin-left: 40px;
+}
 
