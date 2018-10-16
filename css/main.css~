@@ -43,6 +43,9 @@ a {
 }
 
 
+ a:hover {
+    text-decoration: underline;
+}
 
 .button {
     border-radius: 2px;
@@ -66,13 +69,10 @@ a {
     text-align: center;
 }
 
-.center span {
-    color: black;
-}
+span {
 
-.center a:hover {
-color: hotpink;
-}
+text-decoration: none; }
+
 form{
     margin: 16px;
 }
@@ -87,8 +87,8 @@ input[type=text] {
     padding-bottom: 7px;
     font-size: 17px;
     outline: none;
-    margin-top: 10px;
     box-sizing: border-box;
+    margin-top: 10px;
 }
 
 .searchForm{
@@ -111,7 +111,7 @@ margin: 16px;
     background: #f2f2f2;
     color: rgba(0,0,0,.54);
     border: 1px solid #f2f2f2;
-    font-size: 0.9em;
+    font-size: 1em;
     padding: 10px 15px;
     font-weight: bold;
     margin-top: 8px;

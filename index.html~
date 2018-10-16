@@ -24,9 +24,11 @@
 
 
     <div class="center">
+
         <img src="images/googlelogo.png" alt="google logo" width="272px" height="92px">
 
      <div class="searchform">
+
         <form action="#" method="POST">
                 <input type="text" name="searchWord">
                 <img src="images/mic.png" alt="google-mic" width="30px" height="30px">
@@ -39,7 +41,7 @@
         </form>
     </div>
 
-      <span> Google offered in:</span> <a href="#">Hausa</a> <a href="#">Akan</a> <a href="#">Ewe</a> <a href="#">Ga</a>
+       Google offered in: <a href="#">Hausa</a> <a href="#">Akan</a> <a href="#">Ewe</a> <a href="#">Ga</a>
 
     </div>
 
